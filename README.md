@@ -1,10 +1,12 @@
 # Reasoning Content Proxy
 
+注意：本项目最后一次维护是5月，使用前请务必参考最新的官方api接口文档！！
+
 > 用于补全deepseek、kimi等模型的工具调用思维回传的本地代理，适用于claudecode，防止工具调用报错。
 >
 > A local proxy that completes the tool-call reasoning feedback for models like DeepSeek and Kimi, compatible with Claude Code, to prevent tool-call errors.
 
-以opencode go套餐为例，如需使用其他提供商、请自行更改proxy.py内的url。
+以opencode go套餐为例，如需使用其他提供商、请自行更改proxy.py内的url。 适用于任何没有做思维链回传的ai应用程序，只用在应用内把提供商url改为[http://127.0.0.1:8787](http://127.0.0.1:8787/)
 
 *下面的部分由kimi-k2.6编写*
 
